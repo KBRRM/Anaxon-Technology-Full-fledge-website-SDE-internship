@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #d3cee3;
+    color: rgb(14, 1, 1);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: rgb(14, 1, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: rgb(14, 1, 1);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 0 0 2rem 0;
+    font-size: 1.25rem;
+}
+
+.hero .btn {
+    background-color: white;
+    color: rgb(14, 1, 1);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #d3cee3;
+    color: rgb(14, 1, 1);
+}
+
+section {
+    padding: 3rem 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5e35b1;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.contact-form, .contact-info {
+    background-color: #5e35b1;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.contact-form h2, .contact-info h2 {
+    margin-bottom: 1rem;
+    color: #e4dcf0;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.input-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.btn {
+    background-color: #e4dcf0;
+    color: rgb(19, 1, 1);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e4dcf0;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info p strong {
+    display: block;
+}

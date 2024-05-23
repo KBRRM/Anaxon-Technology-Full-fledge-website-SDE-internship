@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h1, section h2 {
+    color: #ffcc00;
+}
+
+section .text, section .image {
+    margin-bottom: 20px;
+}
+
+#home .container, #services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .text, #services .text {
+    flex: 1;
+    padding: 20px;
+}
+
+#home .image, #services .image {
+    flex: 1;
+    padding: 20px;
+}
+
+#home .image img, #services .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#numbers .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#numbers .item {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#numbers .icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+#numbers h2 {
+    margin: 0 0 10px 0;
+}
+
+#numbers p {
+    margin: 0;
+}
+
+#

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ANAXON Technology</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anaxon Technology</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="text" id="mobile" placeholder="Mobile Number" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="input-group">
+                    <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn">Submit Your Enquiry</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact info</h2>
+            <p><strong>Phone</strong><br>+91 9902438722</p>
+            <p><strong>E-Mail</strong><br>nikhil@anaxontech.com</p>
+            <p><strong>Address</strong><br>#46/4, Novel Tech Park, 3 Garvebhavipalya, Kudlu Gate, Bangalore-560067</p>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+    <footer>
+        <p>&copy; 2024 ANAXON Technology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
